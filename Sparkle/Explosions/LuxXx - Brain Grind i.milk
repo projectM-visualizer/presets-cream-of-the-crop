@@ -370,7 +370,7 @@ per_pixel_8=dy = (newy)*newzoom - newy;
 per_pixel_9=dx =dx*0.51;
 per_pixel_10=dy=dy*.8;
 per_pixel_11=rot = 5*newrad*(0.75*(0.2-rad)+0.01);
-per_pixel_12=rot=rot*sin*cos(time)*0.7;
+per_pixel_12=rot=rot*sin(time)*cos(time)*0.7;
 per_pixel_13=sx=-1;
 warp_1=`shader_body
 warp_2=`{

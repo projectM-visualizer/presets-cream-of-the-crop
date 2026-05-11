@@ -174,7 +174,7 @@ shape_0_per_frame5=
 shape_0_per_frame6=c=equal(instance,0);
 shape_0_per_frame7=
 shape_0_per_frame8=x=if(c,.5,x);
-shape_0_per_frame9=y=if(c,.-.4,y);
+shape_0_per_frame9=y=if(c,-.4,y);
 shape_0_per_frame10=rad=if(c,4,rad);
 shape_0_per_frame11=r=if(c,r,1);
 shape_0_per_frame12=g=if(c,g,1);

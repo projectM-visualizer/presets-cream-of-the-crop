@@ -82,7 +82,7 @@ per_frame_18=yamptarg = if(equal(frame%15,0),min(0.3*volume*treb_att,0.5),yampta
 per_frame_19=yamp = yamp + 0.5*(yamptarg-yamp);
 per_frame_20=ydir = if(above(abs(ypos),yamp),-sign(ypos),if(below(abs(yspeed),0.1),2*above(ypos,0)-1,ydir));
 per_frame_21=yaccel = ydir*yamp - ypos - yspeed*0.055*below(abs(ypos),yamp);
-per_frame_22=yspeed = yspeed - cy
+per_frame_22=yspeed = yspeed - cy;
 per_frame_23=yspeed + ydir*yamp - ypos - yspeed*0.055*below(abs(ypos),yamp);
 per_frame_24=ypos = ypos + 0.001*yspeed;
 per_frame_25=dy = ypos;

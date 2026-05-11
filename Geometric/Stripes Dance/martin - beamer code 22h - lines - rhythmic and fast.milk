@@ -431,7 +431,7 @@ per_frame_153=    sa = sin (ang); ca = cos (ang*3);
 per_frame_154=    x = x0*ca  + y0*sa;
 per_frame_155=    y = x0*-sa + y0*ca;
 per_frame_156=    gmegabuf (n+3) = 0.015 * q32;
-per_frame_157=    gmegabuf (n+4) = bnot(schange) * blank;; * (fastpace);;
+per_frame_157=    gmegabuf (n+4) = bnot(schange) * blank * (fastpace)
 per_frame_158=  ,0); //end if scheme ==2
 per_frame_159=
 per_frame_160= gmegabuf (n) =   x * 0.48 + 0.5;

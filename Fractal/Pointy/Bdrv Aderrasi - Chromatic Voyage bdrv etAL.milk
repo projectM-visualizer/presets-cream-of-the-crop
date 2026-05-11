@@ -311,5 +311,5 @@ per_pixel_16=rot = 0 + .2*sw;
 per_pixel_17=
 per_pixel_18=dx = (1-sw)*sin(ang)*.001*.75;
 per_pixel_19=dy = (1-sw)*cos(ang)*.001;
-per_pixel_20=rot=rot*atan2(-rad,sin(ang*20-ang*20*ang*10*atan2(above(bass,bass_Att),above(Treb,t
-per_pixel_21=reb_Att))))*sin(Rad*ang*above(Bass,bass_Att))*rad-ang;
+per_pixel_20=rot=rot*atan2(-rad,sin(ang*20-ang*20*ang*10*atan2(above(bass,bass_Att),above(Treb,treb_Att))))*sin(Rad*ang*above(Bass,bass_Att))*rad-ang;
+per_pixel_21=

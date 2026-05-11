@@ -285,7 +285,7 @@ per_frame_54=zoom=1.00 + sin(time/1)/30;
 per_frame_55=mv_x=sin(time/10)*12 + 52;
 per_frame_56=mv_y=cos(time/10)*8 + 40;
 per_frame_57=sparkadv=sparkadv-0.03 + below(sparkadv, 1);
-per_frame_58=gamma=1 + bass*bass_att
+per_frame_58=gamma=1 + bass*bass_att;
 warp_1=`shader_body
 warp_2=`{
 warp_3=`
