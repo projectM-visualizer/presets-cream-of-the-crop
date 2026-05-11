@@ -81,6 +81,6 @@ per_pixel_8=sy=sy-.2*sqrt(sin(y))*cos(mid)*Sin(time*.54)*sin(time*.54)*ang*sin(t
 per_pixel_9=*x*sin(time*.43)*y*sin(time*.23);
 per_pixel_10=dx=rot*sin(time)*Y*sin(time*.12)*x*sin(time*-.53)*sin(time*.43)*ang*sin(time*.12)
 per_pixel_11=*rad*sin(time*.54)*sin(time*.43);
-per_pixel_12=dy=-rot*sin(time)*x*Sin(time*.53)*y*sin(time*-.12)*sin(time*.23)*ang*sin(time*.43)
-per_pixel_13=*rad*sin(time*.
-per_pixel_14=43)*sin(time*.43);;
+per_pixel_12=dy=-rot*sin(time)*x*Sin(time*.53)*y*sin(time*-.12)*sin(time*.23)*ang*sin(time*.43)*rad*sin(time*.43)*sin(time*.43);
+per_pixel_13=
+per_pixel_14=
