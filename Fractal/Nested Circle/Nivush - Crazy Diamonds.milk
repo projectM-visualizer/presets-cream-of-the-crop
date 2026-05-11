@@ -376,11 +376,11 @@ shape_1_per_frame44=my_volume = (bass + mid + treb)/3;
 shape_1_per_frame45=my_volume_att = (bass + bass_att + mid + mid_att + treb + treb_att)/3;
 shape_1_per_frame46=
 shape_1_per_frame47=//y = 0.27*cos(8*time) + my;
-shape_1_per_frame48=/*
-shape_1_per_frame49=y =0*0.2*cos(time) + my;
-shape_1_per_frame50=change_direction = if(sin(2*time) > 0, 1, 1);
-shape_1_per_frame51=x = 0.04*sin(change_direction*3.12*time) + mx ;
-shape_1_per_frame52=*/
+shape_1_per_frame48=// y =0*0.2*cos(time) + my;
+shape_1_per_frame49=// change_direction = if(sin(2*time) > 0, 1, 1);
+shape_1_per_frame50=// x = 0.04*sin(change_direction*3.12*time) + mx ;
+shape_1_per_frame51=
+shape_1_per_frame52=
 shape_1_per_frame53=change_direction = if(sin(2*time) > 0, 1, 1);
 shape_1_per_frame54=//y =0.2 - 0.1*cos(time) + 0*my;
 shape_1_per_frame55=//x = 0.8 - 0.2*sin(change_direction*3.12*time*0.2) + 0*mx ;
@@ -710,11 +710,11 @@ shape_3_per_frame47=my_volume = (bass + mid + treb)/3;
 shape_3_per_frame48=my_volume_att = (bass + bass_att + mid + mid_att + treb + treb_att)/3;
 shape_3_per_frame49=
 shape_3_per_frame50=//y = 0.27*cos(8*time) + my;
-shape_3_per_frame51=/*
-shape_3_per_frame52=y =0*0.2*cos(time) + my;
-shape_3_per_frame53=change_direction = if(sin(2*time) > 0, 1, 1);
-shape_3_per_frame54=x = 0.04*sin(change_direction*3.12*time) + mx ;
-shape_3_per_frame55=*/
+shape_3_per_frame51=// y =0*0.2*cos(time) + my;
+shape_3_per_frame52=// change_direction = if(sin(2*time) > 0, 1, 1);
+shape_3_per_frame53=// x = 0.04*sin(change_direction*3.12*time) + mx ;
+shape_3_per_frame54=
+shape_3_per_frame55=
 shape_3_per_frame56=change_direction = if(sin(2*time) > 0, 1, 1);
 shape_3_per_frame57=//y =0.5 - 0.2*cos(2*time) + 0*my;
 shape_3_per_frame58=//x = 0.5 - 0.09*sin(change_direction*3.12*time*0.4) + 0*mx ;

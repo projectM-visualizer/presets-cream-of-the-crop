@@ -329,14 +329,14 @@ per_pixel_5=dy = if(outsidex,0,0.03*(q1-1)*log(2-(abs(y*2 - 1.8))) + 0.01*(sin((
 per_pixel_6=dx = if(outsidey,0,0.04*(q1-1)*log(2-(abs(x*2 - 1.8))) + 0.01*(cos((y*q2*0.483) + (x*q2*1.238)) + cos((y*q2*1.612) + (x*q2*0.648))));
 per_pixel_7=zoom = if(below(rad,.4),.1*(-rad +1),zoom);
 per_pixel_8=//rot = rot + if(equal(tan(ang*2),0),-rot,rad)*q1;
-per_pixel_9=zoom=zoom+.10*sin(rad+.+15.15);
+per_pixel_9=zoom=zoom+.10*sin(rad+15.15);
 per_pixel_10=mx= x-.5;
 per_pixel_11=my = y-.5;
 per_pixel_12=zoom= zoom - above(rad-0.18,0)*0.05*rad*.9;
 per_pixel_13=dx = above(rad-(2-bass_att)*.2,0)*0.015*(mx/if(above(rad,0),rad,.1));
 per_pixel_14=dy = above(rad-(2-bass_att)*.2,0)*0.015*(my/if(above(rad,0),rad,.1));
 per_pixel_15=zoom = zoom + if(above(sin(ang*6+1.6),0.4), if(below(sin(ang*6),1), +0.04, 0), 0);
-per_pixel_16=fifth
+per_pixel_16=fifth;
 per_pixel_17=kdx=dx;
 per_pixel_18=kdy=dy;
 per_pixel_19=ksx=sx;

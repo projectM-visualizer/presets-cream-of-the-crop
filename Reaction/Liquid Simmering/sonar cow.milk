@@ -216,7 +216,7 @@ shapecode_1_border_r=1.000
 shapecode_1_border_g=1.000
 shapecode_1_border_b=1.000
 shapecode_1_border_a=0.000
-shape_1_per_frame1=shpt =
+shape_1_per_frame1=shpt = above(bass_att,shpt)*2+(1-above(bass_att,shpt))*((shpt-1.3)*0.96+1.3);
 shapecode_2_enabled=1
 shapecode_2_sides=100
 shapecode_2_additive=0

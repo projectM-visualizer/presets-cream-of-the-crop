@@ -70,8 +70,8 @@ per_frame_6=cy=cy+.2*cos(time*.43)*sin(time*.23);
 per_frame_7=
 per_frame_8=dx=dx*sin(Time)*sin(time*.54)*sin(time*.34);
 per_frame_9=dy=dy*Sin(Time*42)*sin(time*.12)*sin(timE*.13);
-per_pixel_1=rot=if(above(bnot(1*bass),bnot(1*bass*.24)),rot*sin(rad*sin(bass*.54)),-rot*sin(rad*cos(bass*.
-per_pixel_2=34)))*Sin(Bass*.43)*sin(time*.13)*sin(time*.54)*rad*sin(time*.44)*x*sin(time*.32)*y*Sin(time*.32);;
+per_pixel_1=rot=if(above(bnot(1*bass),bnot(1*bass*.24)),rot*sin(rad*sin(bass*.54)),-rot*sin(rad*cos(bass*.34)))*Sin(Bass*.43)*sin(time*.13)*sin(time*.54)*rad*sin(time*.44)*x*sin(time*.32)*y*Sin(time*.32);;
+per_pixel_2=
 per_pixel_3=rot=rot+.20*sin(bass*.43)*sin(rad*2*sin(bass*.54))*rad*sin(ang*rad+rad-ang)-rad*sin
 per_pixel_4=(above(treb+bass-time,treb+mid*time))+.2*Sin(time+Rad)*sin(time*.43)*rad*Sin(time*.43)
 per_pixel_5=*Sin(time*.54)*log(pow(rad,rad*2))*x*sin(time*.43*y*sin(time*.23))*x*Sin(time*.32)*y*Sin(Time*.32);
@@ -81,6 +81,6 @@ per_pixel_8=sy=sy-.2*sqrt(sin(y))*cos(mid)*Sin(time*.54)*sin(time*.54)*ang*sin(t
 per_pixel_9=*x*sin(time*.43)*y*sin(time*.23);
 per_pixel_10=dx=rot*sin(time)*Y*sin(time*.12)*x*sin(time*-.53)*sin(time*.43)*ang*sin(time*.12)
 per_pixel_11=*rad*sin(time*.54)*sin(time*.43);
-per_pixel_12=dy=-rot*sin(time)*x*Sin(time*.53)*y*sin(time*-.12)*sin(time*.23)*ang*sin(time*.43)
-per_pixel_13=*rad*sin(time*.
-per_pixel_14=43)*sin(time*.43);;
+per_pixel_12=dy=-rot*sin(time)*x*Sin(time*.53)*y*sin(time*-.12)*sin(time*.23)*ang*sin(time*.43)*rad*sin(time*.43)*sin(time*.43);
+per_pixel_13=
+per_pixel_14=
