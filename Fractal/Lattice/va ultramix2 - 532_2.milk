@@ -289,8 +289,8 @@ per_frame_init_6=decay=0;
 per_frame_init_7=dcsp=0
 per_frame_init_8=
 per_frame_1=decay=1;
-per_frame_2=ob_size=.01+bass*mid/11
-per_frame_3=99;;
+per_frame_2=ob_size=.01+bass*mid/1199;
+per_frame_3=
 per_frame_4=vol= (bass+mid+treb)*2;
 per_frame_5=vol=vol;
 per_frame_6=

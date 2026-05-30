@@ -230,7 +230,7 @@ per_frame_init_5=wvr=0;
 per_frame_init_6=decay=0;
 per_frame_init_7=dcsp=0;
 per_frame_init_8=flip=-1;
-per_frame_init_9=per_frame_1=//Thanks to unchained for beat code
+per_frame_init_9=//per_frame_1=//Thanks to unchained for beat code
 per_frame_1=decay=1;
 per_frame_2=
 per_frame_3=old_bass_flop=bass_flop;

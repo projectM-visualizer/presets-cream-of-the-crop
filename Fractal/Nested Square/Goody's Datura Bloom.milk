@@ -300,4 +300,4 @@ per_frame_21=
 per_frame_22=cx=if(above(vol,1.5),.5+.5*sin(time),.5);
 per_pixel_1=rot=if(above(bass,.8),atan2(atan2(rot*.1,ang),warp),0);
 per_pixel_2=rot=sin(rot);
-per_pixel_3=\\rot=sin(rot*10);
+per_pixel_3=//rot=sin(rot*10);

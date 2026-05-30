@@ -321,7 +321,7 @@ per_frame_34=rot_c=sin(tt)*0.01;
 per_frame_35=
 per_frame_36=q2=rot_a;
 per_frame_37=q3=rot_b;
-per_frame_38=q4=rot_c
+per_frame_38=q4=rot_c;
 per_frame_39=
 per_frame_40=
 per_frame_41=

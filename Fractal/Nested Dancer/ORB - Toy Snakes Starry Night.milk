@@ -247,7 +247,7 @@ shapecode_3_border_r=1.000000
 shapecode_3_border_g=1.000000
 shapecode_3_border_b=1.000000
 shapecode_3_border_a=1.000000
-per_frame_init_1=state_rot
+per_frame_init_1=state_rot = 0;
 per_frame_init_2=state = 0;
 per_frame_init_3=xs = 0;
 per_frame_init_4=xy = 0;

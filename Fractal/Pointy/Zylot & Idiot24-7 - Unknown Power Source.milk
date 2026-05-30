@@ -65,5 +65,5 @@ per_frame_1=ob_r=rand(10)*Sin(above(bass,bass_att));
 per_frame_2=ob_g=rand(10)*sin(above(mid,mid_Att));
 per_frame_3=ob_b=rand(10)*Sin(above(treb,treb_Att));
 per_frame_4=zoom = .9+bass*.05;
-per_pixel_1=rot=rot*atan2(-rad,sin(ang*20-ang*20*ang*10*atan2(above(bass,bass_Att),above(Treb,t
-per_pixel_2=reb_Att))))*sin(Rad*ang*above(Bass,bass_Att))*rad-ang;
+per_pixel_1=rot=rot*atan2(-rad,sin(ang*20-ang*20*ang*10*atan2(above(bass,bass_Att),above(Treb,treb_Att))))*sin(Rad*ang*above(Bass,bass_Att))*rad-ang;
+per_pixel_2=

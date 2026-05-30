@@ -568,7 +568,7 @@ per_frame_init_15=
 per_frame_init_16=avgbbeatrate=.5;
 per_frame_init_17=beatb=0;
 per_frame_init_18=beatb2=0;
-per_frame_init_19=beat
+per_frame_init_19=beat=0;
 per_frame_init_20=rawbeatb=0;
 per_frame_init_21=lbbtime=time;
 per_frame_init_22=avgdb=.01;

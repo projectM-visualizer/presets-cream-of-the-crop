@@ -380,8 +380,8 @@ per_frame_35=q28 = index2;
 per_frame_36=
 per_frame_37=
 per_frame_38=
-per_frame_39=k1 =  is_
-per_frame_40=beat*equal(index%2,0);
+per_frame_39=k1 =  is_beat*equal(index%2,0);
+per_frame_40=
 per_frame_41=p1 =  k1*(p1+1) + (1-k1)*p1;
 per_frame_42=p2 = dec_med * p2+ (1-dec_med)*p1;
 per_frame_43=rott = p2 * 3.1416/4;
