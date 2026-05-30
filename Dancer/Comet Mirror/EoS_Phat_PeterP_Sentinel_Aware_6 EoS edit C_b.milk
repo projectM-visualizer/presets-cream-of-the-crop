@@ -502,7 +502,7 @@ shapecode_0_border_r=1.000000
 shapecode_0_border_g=1.000000
 shapecode_0_border_b=1.000000
 shapecode_0_border_a=0.000000
-shape_0_per_frame1=additive=above(sin(time*200),0.99l);
+shape_0_per_frame1=additive=above(sin(time*200),0.99);
 shape_0_per_frame2=
 shapecode_1_enabled=1
 shapecode_1_sides=24

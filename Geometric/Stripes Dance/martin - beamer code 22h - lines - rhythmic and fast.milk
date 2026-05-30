@@ -397,7 +397,7 @@ per_frame_119=    sa = sin (ang); ca = cos (ang);
 per_frame_120=    x = x0*ca  + y0*sa;
 per_frame_121=    y = x0*-sa + y0*ca;
 per_frame_122=    if (ran6 > 0.6, x *=  ((m%2==0)-0.5)*2+(0*q15), 0);    
-per_frame_123=     gmegabuf (n+3) = 0.015 * q32 ;;
+per_frame_123=     gmegabuf (n+3) = 0.015 * q32 ;
 per_frame_124=    gmegabuf (n+4) = bnot(schange);
 per_frame_125=  ,0); //end if scheme ==0
 per_frame_126=
@@ -416,8 +416,8 @@ per_frame_138=    ca = sign (ca) * pow (abs(ca),ran1*4);
 per_frame_139=    x = x0*ca  + y0*sa;
 per_frame_140=    y = x0*-sa + y0*ca;
 per_frame_141=    if (ran6 > 0.7, y *=  ((m%2==0)-0.5)*(2+q15),0);    
-per_frame_142=    gmegabuf (n+3) = 0.015 * q32;;
-per_frame_143=    gmegabuf (n+4) = bnot(schange);;
+per_frame_142=    gmegabuf (n+3) = 0.015 * q32;
+per_frame_143=    gmegabuf (n+4) = bnot(schange);
 per_frame_144=  ,0); //end if scheme ==1
 per_frame_145=
 per_frame_146=
@@ -431,7 +431,7 @@ per_frame_153=    sa = sin (ang); ca = cos (ang*3);
 per_frame_154=    x = x0*ca  + y0*sa;
 per_frame_155=    y = x0*-sa + y0*ca;
 per_frame_156=    gmegabuf (n+3) = 0.015 * q32;
-per_frame_157=    gmegabuf (n+4) = bnot(schange) * blank;; * (fastpace);;
+per_frame_157=    gmegabuf (n+4) = bnot(schange) * blank * (fastpace);
 per_frame_158=  ,0); //end if scheme ==2
 per_frame_159=
 per_frame_160= gmegabuf (n) =   x * 0.48 + 0.5;
